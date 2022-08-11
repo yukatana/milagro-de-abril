@@ -1,1 +1,22 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600;700;800;900&family=Poppins:wght@300;400;500;700;900&display=swap');
+
+body {
+    font-family: 'Nunito', sans-serif;
+}
+
+.navbar {
+    padding-top: 200px;
+}
+
+.navbar-brand {
+    position: absolute;
+    left: 50%;
+    top: 25px;
+    margin-left: -100px;
+    display: block;
+}
+
+.navbar-brand > img {
+    max-width: 200px;
+}
