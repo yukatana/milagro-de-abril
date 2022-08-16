@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600;700;800;900&family=Poppins:wght@300;400;500;700;900&display=swap');
+:root{
+    --color-titles: #001A49;
+    --aqua: #5EFCE8;
+    --purple: #736EFE;
+    --secondary-turquoise: #43CBFF;
+    --secondary-purple: #A4A4FF;
+    --secondary-coral: #FF7F30;
+}
+* {
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+h1,h2,h3{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    color:#736efe;
+}
+.fix_img{
+    max-width: 75%;
+    margin: 0 auto;
+}
+
+.btn-form{
+    background-color: #736EFE; 
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+
+}
+
+.btn-form:hover{
+    background-color: #736efecf; 
+    color: #fff;
+}
