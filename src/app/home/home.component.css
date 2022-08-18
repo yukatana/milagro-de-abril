@@ -1,9 +1,4 @@
 
-
-
-
-
-
 .navbar {
     padding-top: 200px;
 }
@@ -65,4 +60,20 @@
     position:relative;
     left: 35px;
     
+}
+
+.hover:hover{
+    background-color: #01aac4;
+}
+.history-btn{
+    background: #8682fa;
+}
+.history-btn:hover{
+    background: #928ff6;
+}
+
+.strong{
+    font-weight: bold !important;
+    display: inline-block;
+    margin-top: 20px ;
 }
