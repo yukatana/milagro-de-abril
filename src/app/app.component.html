@@ -1,1 +1,61 @@
+<header>
+    <nav class="navbar navbar-expand-lg ">
+        <div class="container-fluid">
+        <div class="row mx-auto">
+            <a class="navbar-brand" href="#">
+            <img src="../../assets/logo-principal-vertical.png" alt="logo">
+            </a>
+        </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse " id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+                <a class="nav-link" routerLink="/home">Inicio</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" routerLink="/quienes-somos">Quiénes somos</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" routerLink="/programas">Programas</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" routerLink="/aprende">Aprende</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" routerLink="/noticias">Noticias</a>
+            </li>
+            
+            <li ngbDropdown class="nav-item">
+                <a ngbDropdownToggle class="nav-link" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Dropdown
+                </a>
+                <ul>
+                <li ngbDropdownItem><a class="dropdown-item" href="#">Action</a></li>
+                <li ngbDropdownItem><a class="dropdown-item" href="#">Another action</a></li>
+                </ul>
+            </li>
+            </ul>
+        </div>
+        </div>
+    </nav>
+</header>
+  
 <router-outlet></router-outlet>
+
+<footer class="d-flex bg-dark px-2 flex-wrap justify-content-between align-items-center py-3 mt-4 border-top">
+    <div class="container">
+        <ul class="nav col-md-12 justify-content-center">
+        <li class="nav-item nav-item-foo"><a href="#" class="nav-link px-2 text-muted"><img
+                src="../../assets/insta.svg" /></a></li>
+        <li class="nav-item nav-item-foo"><a href="#" class="nav-link px-2 text-muted"><img
+                src="../../assets/face.svg" /></a></li>
+        <li class="nav-item nav-item-foo"><a href="#" class="nav-link px-2 text-muted"><img
+                src="../../assets/twitter.svg" /></a></li>
+        </ul>
+        <p class="col-md-4 mb-0 text-muted">&copy; 2022 FMA, todos los derechos reservados.</p>
+    </div>
+</footer>
+  
