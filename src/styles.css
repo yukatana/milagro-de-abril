@@ -4,19 +4,3 @@
 body {
     font-family: 'Nunito', sans-serif;
 }
-
-.navbar {
-    padding-top: 200px;
-}
-
-.navbar-brand {
-    position: absolute;
-    left: 50%;
-    top: 25px;
-    margin-left: -100px;
-    display: block;
-}
-
-.navbar-brand > img {
-    max-width: 200px;
-}

@@ -4,23 +4,6 @@ h2,h3{
     margin: 25px 0;
 }
 
-.navbar {
-    padding-top: 200px;
-}
-
-.navbar-brand {
-    position: absolute;
-    left: 50%;
-    top: 25px;
-    margin-left: -100px;
-    display: block;
-}
-
-.navbar-brand > img {
-    max-width: 200px;
-}
-
-
 .bg-blue{
     background-color: #0092a9;
 }
