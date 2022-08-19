@@ -1,0 +1,15 @@
+h2,h3{
+    font-weight: 700;
+    color:#736efe;
+    margin: 25px 0;
+}
+
+.bg-blue{
+    background-color: #0092a9;
+}
+
+main button {
+    background-color: #00bcce;
+    padding: 10px 30px;
+    border: none;
+}
