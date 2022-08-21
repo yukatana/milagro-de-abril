@@ -9,6 +9,10 @@ import { QuienesSomosComponent } from './quienes-somos/quienes-somos.component';
 import { ProgramasComponent } from './programas/programas.component';
 import { AprendeComponent } from './aprende/aprende.component';
 import { NoticiasComponent } from './noticias/noticias.component';
+import { RealidadComponent } from './aprende/realidad/realidad.component';
+import { GuadalupeComponent } from './programas/guadalupe/guadalupe.component';
+import { MujeresDelAlmaComponent } from './programas/mujeres-del-alma/mujeres-del-alma.component';
+import { BuzonNaranjaComponent } from './programas/buzon-naranja/buzon-naranja.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +21,11 @@ import { NoticiasComponent } from './noticias/noticias.component';
     QuienesSomosComponent,
     ProgramasComponent,
     AprendeComponent,
-    NoticiasComponent
+    NoticiasComponent,
+    RealidadComponent,
+    GuadalupeComponent,
+    MujeresDelAlmaComponent,
+    BuzonNaranjaComponent
   ],
   imports: [
     BrowserModule,
