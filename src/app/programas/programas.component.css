@@ -7,6 +7,9 @@ h2,h3{
 .bg-blue{
     background-color: #0092a9;
 }
+.bg-blue-2{
+    background:     #00BCCE ; 
+}
 
 main button {
     background-color: #00bcce;
