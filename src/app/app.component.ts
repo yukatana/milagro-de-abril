@@ -6,11 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'milagro-de-abril';
+  title = 'milagro-de-abril'
 
   escape = () => {
     setTimeout(function(){
-      window.location.replace("https://www.google.com/");
-     },100)
+      window.location.replace("https://www.google.com/")
+    },100)
   }
 }
