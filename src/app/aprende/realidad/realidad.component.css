@@ -1,0 +1,21 @@
+h1,h2,h3,h4{
+    font-weight: 700;
+    color:#736efe;
+    margin: 20px 0;
+}
+
+
+.span_purple{
+    color: purple;
+    font-weight: bold;
+    text-decoration: underline;
+    font-size:22px;
+}
+
+.span_blue{
+    color :#48a;
+    font-weight: bold;
+    text-decoration: underline;
+    font-size:22px;
+
+}
