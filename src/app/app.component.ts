@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'milagro-de-abril';
+
+  escape = () => {
+    setTimeout(function(){
+      window.location.replace("https://www.google.com/");
+     },100)
+  }
 }
