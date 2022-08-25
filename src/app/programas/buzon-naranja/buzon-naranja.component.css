@@ -5,13 +5,13 @@
 
 /* para título */
 .orange{
-    color: rgb(255, 37, 0);
+    color:rgb(229, 101, 77);
     font-weight: bold;
 }
 
 /* para span con nombres */
 .text-orange{
-    color: rgb(255, 37, 0);
+    color: rgb(229, 101, 77);
     font-weight: bold;
     font-size: 25px;
 
@@ -22,7 +22,7 @@
     color:#48a;
 }
 .btn-form{
-    background:rgb(255, 37, 0);
+    background:rgb(229, 101, 77);
     padding: .5em 3em;
     border: 0;
     border-radius:.3em;
