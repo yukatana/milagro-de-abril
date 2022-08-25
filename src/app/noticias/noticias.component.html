@@ -50,7 +50,18 @@
         <p class=" lead my-3 py-5 border-top border-bottom">Por Dirección de Mercadeo y Comunicaciones</p>
       </div>
       <div class="col-md-5 mx-auto">
-        <img src="../../assets/noticias_8.jpg" class="img-fluid my-4 py-1 " alt="noticias_8">
+        <ngb-carousel>
+          <ng-template ngbSlide>
+            <div class="picsum-img-wrapper">
+              <img src="../../assets/noticias_8.jpg" height="300px" alt="">
+            </div>
+          </ng-template>
+          <ng-template ngbSlide>
+            <div class="picsum-img-wrapper">
+              <img src="../../assets/noticias_9.jpg" height="300px" alt="">
+            </div>
+          </ng-template>
+        </ngb-carousel>
       </div>
       <div class="col-md-6 p-4 ">
         <p class="pb-3 lead">
@@ -58,8 +69,6 @@
           aceleración de Innpulsa Colombia con el apoyo de la Cámara de Comercio de Manizales por Caldas, que nos
           permitió a los emprendedores de la ciudad fortalecer y potenciar nuestras organizaciones.
         </p>
-        <img src="../../assets/noticias_9.jpg" class="img-fluid " alt="noticias_9">
-
       </div>
     </div>
   </div>
@@ -117,48 +126,27 @@
 
     <div class="row">
       <div class="col-md-4 mt-4 pt-1 mx-auto">
-        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-          <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
-              aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-              aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
-              aria-label="Slide 3"></button>
-          </div>
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img src="../../assets/noticias_21.jpg" class="d-block w-100" alt="First-slide">
-              <div class="carousel-caption d-none d-md-block">
-              </div>
+        <ngb-carousel>
+          <ng-template ngbSlide>
+            <div class="picsum-img-wrapper">
+              <img src="../../assets/noticias_21.jpg" height="500px" alt="">
             </div>
-            <div class="carousel-item">
-              <img src="../../assets/noticias_14.jpg" class="d-block w-100" alt="second-slide">
-              <div class="carousel-caption d-none d-md-block">
-              </div>
+          </ng-template>
+          <ng-template ngbSlide>
+            <div class="picsum-img-wrapper">
+              <img src="../../assets/noticias_14.jpg" height="500px" alt="">
             </div>
-            <div class="carousel-item">
-              <img src="../../assets/noticias_15.jpg" class="d-block w-100" alt="third-slide">
-              <div class="carousel-caption d-none d-md-block">
-              </div>
+          </ng-template>
+          <ng-template ngbSlide>
+            <div class="picsum-img-wrapper">
+              <img src="../../assets/noticias_15.jpg" height="500px" alt="">
             </div>
-            <div class="carousel-item">
-              <img src="../../assets/noticias_13.jpg" class="d-block w-100" alt="third-slide">
-              <div class="carousel-caption d-none d-md-block">
-              </div>
+          </ng-template><ng-template ngbSlide>
+            <div class="picsum-img-wrapper">
+              <img src="../../assets/noticias_13.jpg" height="500px" alt="">
             </div>
-          </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
-            data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
-            data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
-        </div>
+          </ng-template>
+        </ngb-carousel>
       </div>
 
       <div class="col-md-6">
@@ -175,49 +163,28 @@
           Quijote.
         </p>
         <div class="row">
-          <div class="col-md-5 ">
-            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-              <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
-                  aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-                  aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
-                  aria-label="Slide 3"></button>
-              </div>
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <img src="../../assets/noticias_16.jpg" class="d-block w-100" alt="First-slide">
-                  <div class="carousel-caption d-none d-md-block">
-                  </div>
+          <div class="col-md-12">
+            <ngb-carousel>
+              <ng-template ngbSlide>
+                <div class="picsum-img-wrapper">
+                  <img src="../../assets/noticias_16.jpg" width="100%" alt="">
                 </div>
-                <div class="carousel-item">
-                  <img src="../../assets/noticias_20.jpg" class="d-block w-100" alt="second-slide">
-                  <div class="carousel-caption d-none d-md-block">
-                  </div>
+              </ng-template>
+              <ng-template ngbSlide>
+                <div class="picsum-img-wrapper">
+                  <img src="../../assets/noticias_20.jpg" width="100%" alt="">
                 </div>
-                <div class="carousel-item">
-                  <img src="../../assets/noticias_18.jpg" class="d-block w-100" alt="third-slide">
-                  <div class="carousel-caption d-none d-md-block">
-                  </div>
+              </ng-template>
+              <ng-template ngbSlide>
+                <div class="picsum-img-wrapper">
+                  <img src="../../assets/noticias_18.jpg" width="100%" alt="">
                 </div>
-                <div class="carousel-item">
-                  <img src="../../assets/noticias_17.jpg" class="d-block w-100" alt="third-slide">
-                  <div class="carousel-caption d-none d-md-block">
-                  </div>
+              </ng-template><ng-template ngbSlide>
+                <div class="picsum-img-wrapper">
+                  <img src="../../assets/noticias_17.jpg" width="100%" alt="">
                 </div>
-              </div>
-              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
-                data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-              </button>
-              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
-                data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-              </button>
-            </div>
+              </ng-template>
+            </ngb-carousel>
           </div>
           <p class="py-3 mt-4 lead">
             Si estás en una relación abusiva y tóxica, búscanos, prometemos ayudarte para romper el ciclo. ¡Mujer no
@@ -240,63 +207,43 @@
     </div>
     <div class="row">
       <div class="col-md-5 mt-4 pt-1 mx-auto">
-        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-          <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
-              aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-              aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
-              aria-label="Slide 3"></button>
-          </div>
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img src="../../assets/noticias_22.jpg" class="d-block w-100" alt="First-slide">
-              <div class="carousel-caption d-none d-md-block">
-              </div>
+        <ngb-carousel>
+          <ng-template ngbSlide>
+            <div class="picsum-img-wrapper">
+              <img src="../../assets/noticias_26.jpg" height="550px" alt="">
             </div>
-            <div class="carousel-item">
-              <img src="../../assets/noticias_23.jpg" class="d-block w-100" alt="second-slide">
-              <div class="carousel-caption d-none d-md-block">
-              </div>
+          </ng-template>
+          <ng-template ngbSlide>
+            <div class="picsum-img-wrapper">
+              <img src="../../assets/noticias_25.jpg" height="550px" alt="">
             </div>
-            <div class="carousel-item">
-              <img src="../../assets/noticias_24.jpg" class="d-block w-100" alt="third-slide">
-              <div class="carousel-caption d-none d-md-block">
-              </div>
+          </ng-template>
+          <ng-template ngbSlide>
+            <div class="picsum-img-wrapper">
+              <img src="../../assets/noticias_27.jpg" height="550px" alt="">
             </div>
-            <div class="carousel-item">
-              <img src="../../assets/noticias_25.jpg" class="d-block w-100" alt="third-slide">
-              <div class="carousel-caption d-none d-md-block">
-              </div>
+          </ng-template>
+          <ng-template ngbSlide>
+            <div class="picsum-img-wrapper">
+              <img src="../../assets/noticias_28.jpg" height="550px" alt="">
             </div>
-            <div class="carousel-item">
-              <img src="../../assets/noticias_26.jpg" class="d-block w-100" alt="third-slide">
-              <div class="carousel-caption d-none d-md-block">
-              </div>
+          </ng-template>
+          <ng-template ngbSlide>
+            <div class="picsum-img-wrapper">
+              <img src="../../assets/noticias_22.jpg" height="550px" alt="">
             </div>
-            <div class="carousel-item">
-              <img src="../../assets/noticias_27.jpg" class="d-block w-100" alt="third-slide">
-              <div class="carousel-caption d-none d-md-block">
-              </div>
+          </ng-template>
+          <ng-template ngbSlide>
+            <div class="picsum-img-wrapper">
+              <img src="../../assets/noticias_23.jpg" height="550px" alt="">
             </div>
-            <div class="carousel-item">
-              <img src="../../assets/noticias_28.jpg" class="d-block w-100" alt="third-slide">
-              <div class="carousel-caption d-none d-md-block">
-              </div>
+          </ng-template>
+          <ng-template ngbSlide>
+            <div class="picsum-img-wrapper">
+              <img src="../../assets/noticias_24.jpg" height="550px" alt="">
             </div>
-          </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
-            data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
-            data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
-        </div>
+          </ng-template>
+        </ngb-carousel>
       </div>
       <div class="col-md-6">
         <p class="py-3 mt-2 lead">
@@ -328,43 +275,24 @@
     </div>
     <div class="row">
       <div class="col-md-5 mt-4 mx-auto pt-1 ">
-        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-          <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
-              aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-              aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
-              aria-label="Slide 3"></button>
-          </div>
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img src="../../assets/noticias_29.jpg" class="d-block w-100" alt="First-slide">
-              <div class="carousel-caption d-none d-md-block">
-              </div>
+
+        <ngb-carousel>
+          <ng-template ngbSlide>
+            <div class="picsum-img-wrapper">
+              <img src="../../assets/noticias_29.jpg" height="450px" alt="">
             </div>
-            <div class="carousel-item">
-              <img src="../../assets/noticias_30.jpg" class="d-block w-100" alt="second-slide">
-              <div class="carousel-caption d-none d-md-block">
-              </div>
+          </ng-template>
+          <ng-template ngbSlide>
+            <div class="picsum-img-wrapper">
+              <img src="../../assets/noticias_30.jpg" height="450px" alt="">
             </div>
-            <div class="carousel-item">
-              <img src="../../assets/noticias_31.jpg" class="d-block w-100" alt="third-slide">
-              <div class="carousel-caption d-none d-md-block">
-              </div>
+          </ng-template>
+          <ng-template ngbSlide>
+            <div class="picsum-img-wrapper">
+              <img src="../../assets/noticias_31.jpg" height="450px" alt="">
             </div>
-          </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
-            data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
-            data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
-        </div>
+          </ng-template>
+        </ngb-carousel>
       </div>
       <div class="col-md-6">
         <p class="lead py-3 mt-2">
@@ -487,8 +415,18 @@
         <p class=" lead my-3 py-5 border-top border-bottom">Por Dirección de Mercadeo y Comunicaciones</p>
       </div>
       <div class="col-md-5 mx-auto">
-        <img src="../../assets/noticias_7.jpg" class="img-fluid my-4 py-1 " alt="noticias_7">
-        <img src="../../assets/noticias_6.jpg" class="img-fluid " alt="noticias_6">
+        <ngb-carousel>
+          <ng-template ngbSlide>
+            <div class="picsum-img-wrapper">
+              <img src="../../assets/noticias_7.jpg" height="500px" alt="">
+            </div>
+          </ng-template>
+          <ng-template ngbSlide>
+            <div class="picsum-img-wrapper">
+              <img src="../../assets/noticias_6.jpg" height="500px" alt="">
+            </div>
+          </ng-template>
+        </ngb-carousel>
       </div>
       <div class="col-md-6 p-4 ">
         <p class="pb-3 lead">

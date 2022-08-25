@@ -61,3 +61,7 @@ input[type="submit"]:hover{
     z-index: -1;
     opacity: 0.8;
 }
+
+.soporte-text {
+    height: 80px;
+}

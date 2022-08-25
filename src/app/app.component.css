@@ -15,6 +15,31 @@
     max-width: 200px;
 }
 
+#escape-button {
+    height: 180px;
+    width: 180px;
+    border: none;
+    background-color: orange;
+    position: fixed;
+    bottom: -30px;
+    right: -25px;
+}
+
+#escape-button > h3 {
+    font-weight: 700;
+    color: white;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.bg-blue{
+    background-color: #0092a9;
+}
+
+.bg-blue-2{
+    background: #00BCCE ; 
+}
+
 footer > div > p {
     margin-top: 30px;
 }
