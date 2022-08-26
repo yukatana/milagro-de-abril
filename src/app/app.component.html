@@ -2,24 +2,8 @@
     <div class="container-fluid">
         <div class="row mx-auto">
             <a class="navbar-brand" routerLink="home">
-            <img src="../../assets/logo-principal-vertical.png" alt="logo">
+                <img src="../../assets/logo-principal-vertical.png" alt="logo">
             </a>
-        </div>
-
-        <div ngbDropdown display="dynamic">
-            <button ngbDropdownToggle class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div ngbDropdownMenu>
-                <button ngbDropdownItem routerLink="home">Inicio</button>
-                <button ngbDropdownItem routerLink="quienes-somos">Quiénes somos</button>
-                <button ngbDropdownItem routerLink="programas">Programas</button>
-                <button ngbDropdownItem routerLink="aprende">Aprende</button>
-                <button ngbDropdownItem routerLink="noticias">Noticias</button>
-                <button ngbDropdownItem routerLink="">...</button>
-                <button ngbDropdownItem routerLink="">...</button>
-            </div>
         </div>
     </div>
 </nav>
@@ -58,6 +42,26 @@
                     <a class="nav-link" routerLink="noticias">Noticias</a>
                 </li>
             </ul>
+        </div>
+    </div>
+</nav>
+
+<nav class="navbar sticky-top bg-white navbar-expand-lg">
+    <div class="container-fluid">
+        <div ngbDropdown display="dynamic" class="col-12">
+            <button ngbDropdownToggle class="navbar-toggler w-100" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div ngbDropdownMenu class="item-container">
+                <button ngbDropdownItem routerLink="home">Inicio</button>
+                <button ngbDropdownItem routerLink="quienes-somos">Quiénes somos</button>
+                <button ngbDropdownItem routerLink="programas">Programas</button>
+                <button ngbDropdownItem routerLink="aprende">Aprende</button>
+                <button ngbDropdownItem routerLink="noticias">Noticias</button>
+                <button ngbDropdownItem routerLink="">...</button>
+                <button ngbDropdownItem routerLink="">...</button>
+            </div>
         </div>
     </div>
 </nav>

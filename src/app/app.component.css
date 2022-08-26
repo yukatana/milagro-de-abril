@@ -12,7 +12,15 @@
 }
 
 .navbar-brand > img {
-    max-width: 200px;
+    width: 100%;
+}
+
+.item-container {
+    width: 100%;
+}
+
+.item-container > button {
+    width: 100%;
 }
 
 #escape-button {
@@ -24,11 +32,11 @@
     bottom: -30px;
     right: -25px;
 }
+
 #escape-button:hover {
     background-color:orangered;
     transition: background .4s ease-in-out;
 }
-
 
 #escape-button > h3 {
     font-weight: 700;
