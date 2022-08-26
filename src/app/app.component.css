@@ -1,4 +1,4 @@
-.navbar {
+#logo {
     padding-top: 200px;
 }
 
@@ -37,13 +37,6 @@
     margin-top: 0px;
 }
 
-.bg-blue{
-    background-color: #0092a9;
-}
-
-.bg-blue-2{
-    background: #00BCCE ; 
-}
 
 footer > div > p {
     margin-top: 30px;
