@@ -4,32 +4,27 @@ h1,h2,h3{
     margin: 20px 0;
 }
 
-ul  li {
+ul li {
     padding:.3em 0;
-}
-
-main button{
-    background-color:#736efe;
-    border: 0;
-    color: #fff;
-    padding: .5em;
-}
-input[type="submit"]{
-    background-color:transparent;
-    border: 0;
-    color: #fff;
-    outline:1px solid #fff;
-    padding: .5em;
 }
 
 main button:hover{
     background-color:#5a54fb;
 }
-input[type="submit"]:hover{
-    background-color:#fff;
-    border:0;
-    color: #0092a9;
-    transition: all .5s;
+
+.btn-form{
+    background-color:#5a54fb;
+    color: #fff;
+    border: none;
+    padding: .5em;
+    font-size: 16px;
+    font-weight: 600;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-form:hover{
+    background-color: #736efecf; 
+    color: #fff;
 }
 
 
@@ -64,4 +59,8 @@ input[type="submit"]:hover{
 
 .soporte-text {
     height: 80px;
+}
+
+.btn-disabled {
+    background-color: #565664
 }

@@ -18,7 +18,7 @@ export class BuzonNaranjaComponent implements OnInit {
 
   onSubmit(data:any) {
     console.log(data)
-    return this.http.post("https://formspree.io/f/xrgdbyqr", 
+    return this.http.post('https://formspree.io/f/mvoygwrw', 
       {
         message: data.message
       }

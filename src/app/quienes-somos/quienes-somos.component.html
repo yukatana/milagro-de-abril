@@ -135,21 +135,21 @@
               <label class="my-2" for="name">Nombre<span>*</span></label>
               <input class="form-control mb-3 w-75" type="text" name="name" required #name="ngModel" ngModel>
               <div *ngIf="!name?.valid && (name?.dirty || name?.touched)">
-                Inserta un nombre válido.
+                Ingresa un nombre válido.
               </div>
             </div>
             <div>
               <label class="my-2" for="email">Email<span>*</span></label>
               <input class="form-control mb-3 w-75" type="text" name="email" required email #email="ngModel" ngModel>
               <div *ngIf="!email?.valid && (email?.dirty || email?.touched)">
-                Inserta un e-mail válido.
+                Ingresa un e-mail válido.
               </div>
             </div>
             <div>
               <label class="my-2" for="phone">Teléfono<span>*</span></label>
               <input class="form-control mb-3 w-75" type="text" name="phone" required #phone="ngModel" ngModel>
               <div *ngIf="!phone?.valid && (phone?.dirty || phone?.touched)">
-                Inserta tu número de teléfono.
+                Ingresa tu número de teléfono.
               </div>
             </div>
            <button type="submit" class="btn-form" [disabled]="!contactForm.valid || isSubmitted" [ngClass]="{'btn-disabled' : isSubmitted || !contactForm.valid}">Enviar</button>

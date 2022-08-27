@@ -5,10 +5,10 @@
 .navbar-brand {
     position: absolute;
     left: 50%;
-    top: 25px;
-    margin-left: -100px;
+    top: 0px;
+    margin-left: -150px;
     display: block;
-    max-width: 200px;
+    max-width: 300px;
 }
 
 .navbar-brand > img {
