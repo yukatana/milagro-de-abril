@@ -21,6 +21,10 @@ h1, h2, h3{
     margin: 0 auto;
 }
 
+label > span {
+    color: red;
+}
+
 .btn-form{
     background-color: #736EFE; 
     color: #fff;
@@ -31,10 +35,13 @@ h1, h2, h3{
     font-weight: 600;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
-
 }
 
 .btn-form:hover{
     background-color: #736efecf; 
     color: #fff;
+}
+
+.btn-disabled {
+    background-color: #565664
 }

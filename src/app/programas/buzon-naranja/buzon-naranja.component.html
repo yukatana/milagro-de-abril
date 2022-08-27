@@ -135,12 +135,16 @@
     <div>
       <div class="row d-flex align-items-center">
         <div class="col-md-6">
-            <form>
+            <form #buzonNaranja="ngForm" (ngSubmit)="onSubmit(buzonNaranja.value)" novalidate>
                 <div>
-                    <label class="my-2 text-orange" for="name">Mensaje</label>
-                    <textarea class="textarea form-control mb-3 " cols="80" rows="10" id="name"></textarea>
+                    <label class="my-2 text-orange" for="message">Mensaje<span>*</span></label>
+                    <textarea class="textarea form-control mb-3 " cols="80" rows="10" name="message" required #message="ngModel" ngModel></textarea>
                 </div>
-                <input type="submit" class="btn-form" value="Enviar"/>
+                <div *ngIf="!message?.valid && (message?.dirty || message?.touched)" class="pb-3">
+                    Por favor, escribe tu mensaje.
+                </div>
+                <button type="submit" class="btn-form" [disabled]="!buzonNaranja.valid || isSubmitted" [ngClass]="{'btn-disabled' : isSubmitted || !buzonNaranja.valid}">Enviar</button>
+                
             </form>
         </div>
         <div class="col-md-4 mx-auto">

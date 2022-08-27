@@ -24,7 +24,7 @@
     <div class="row text-center">
       <div class="col-md-6 p-4  ">
         <h2 class="border-bottom pb-4">Visión</h2>
-        <p class="mt-4 lead">En 5 años s​eremos una organización reconocida internacionalmente por brindar una intervención
+        <p class="mt-4 lead">En 5 años seremos una organización reconocida internacionalmente por brindar una intervención
           holística e
           integral de alta calidad en los procesos de recuperación, sanación y empoderamiento de las mujeres, niños,
           niñas y adolescentes sobrevivientes de maltrato, abuso y exclusión social.
@@ -120,6 +120,7 @@
       </div>
     </div>
   </div>
+
   <div class="container">
     <div class ="row">
       <div class="col-md-12 text-center">
@@ -129,24 +130,33 @@
     <div>
       <div class="row">
         <div class="col-md-6">
-          <form>
+          <form #contactForm="ngForm" (ngSubmit)="onSubmit(contactForm.value)" novalidate>
             <div>
-            <label class="my-2" for="name">Nombres</label>
-            <input class="form-control mb-3 w-75 " type="text" id="name"/>
-          </div>
-          <div>
-            <label class="my-2" for="name">Email</label>
-            <input class="form-control mb-3 w-75 " type="text" id="name"/>
-          </div>
-          <div>
-            <label class="my-2" for="name">Teléfono</label>
-            <input class="form-control mb-3 w-75 " type="text" id="name"/>
-          </div>
-          <input type="submit" class="btn-form" value="Enviar"/>
+              <label class="my-2" for="name">Nombre<span>*</span></label>
+              <input class="form-control mb-3 w-75" type="text" name="name" required #name="ngModel" ngModel>
+              <div *ngIf="!name?.valid && (name?.dirty || name?.touched)">
+                Inserta un nombre válido.
+              </div>
+            </div>
+            <div>
+              <label class="my-2" for="email">Email<span>*</span></label>
+              <input class="form-control mb-3 w-75" type="text" name="email" required email #email="ngModel" ngModel>
+              <div *ngIf="!email?.valid && (email?.dirty || email?.touched)">
+                Inserta un e-mail válido.
+              </div>
+            </div>
+            <div>
+              <label class="my-2" for="phone">Teléfono<span>*</span></label>
+              <input class="form-control mb-3 w-75" type="text" name="phone" required #phone="ngModel" ngModel>
+              <div *ngIf="!phone?.valid && (phone?.dirty || phone?.touched)">
+                Inserta tu número de teléfono.
+              </div>
+            </div>
+           <button type="submit" class="btn-form" [disabled]="!contactForm.valid || isSubmitted" [ngClass]="{'btn-disabled' : isSubmitted || !contactForm.valid}">Enviar</button>
         </form>
       </div>
       <div class="col-md-4 mx-auto">
-        <img src="../../assets/about_15_form.jpg"  alt="form-img">
+        <img src="../../assets/about_15_form.jpg" alt="form-img">
       </div>
       </div>
     </div>
