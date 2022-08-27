@@ -13,6 +13,7 @@
 
 .navbar-brand > img {
     width: 100%;
+    padding: 20px;
 }
 
 .item-container {
@@ -20,7 +21,7 @@
 }
 
 .item-container > button {
-    width: 100%;
+    font-size: larger;
 }
 
 #escape-button {
