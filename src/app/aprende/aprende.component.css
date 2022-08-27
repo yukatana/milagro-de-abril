@@ -4,8 +4,15 @@ h1,h2,h3{
     margin: 20px 0;
 }
 
-ul li {
+ul  li {
     padding:.3em 0;
+}
+
+.support-button {
+    background-color:#736efe;
+    border: 0;
+    color: #fff;
+    padding: .5em;
 }
 
 main button:hover{
